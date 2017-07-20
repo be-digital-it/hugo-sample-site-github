@@ -1,20 +1,11 @@
 +++
-title = "(Hu)go Template Primer"
+categories = ["Development", "golang"]
+date = "2014-04-02T00:00:00Z"
 description = ""
-tags = [
-    "go",
-    "golang",
-    "templates",
-    "themes",
-    "development",
-]
-date = "2014-04-02"
-categories = [
-    "Development",
-    "golang",
-]
-+++
+tags = ["go", "golang", "templates", "themes", "development"]
+title = "(Hu)go Template Primer"
 
++++
 Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
@@ -295,7 +286,7 @@ parameters, which are values which will be available to you in chrome.
 
 For instance, you might declare:
 
-```yaml
+```
 params:
   CopyrightHTML: "Copyright &#xA9; 2013 John Doe. All Rights Reserved."
   TwitterUser: "spf13"
